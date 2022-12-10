@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    color: white;
+}
+
+form{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 85vw;
+    height: 70vh;
+    padding: 15px;
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    width: 85vw;
+    position: relative;
+    top: 40px;
+    left: 115px;
+
+}
+.label{
+    display: block;
+    padding-bottom: 5px;
+    color: white;
+}
+.input{
+    background-color: transparent;
+    color: white;
+    display: block;
+    width: 85vw;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+#date{
+    background-color: transparent;
+    color: white;
+    display: block;
+    width: 85vw;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.category{
+    padding-right: 35px;
+    cursor: pointer;
+}
+input:checked{
+    background-color: #2196F3;
+  }
+
+.checkbox{
+    padding-top: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    margin-top: 30px;
+    padding: 8px 16px;
+    text-align: center;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+}

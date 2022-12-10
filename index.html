@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Signup Page">
+    <title>Signup</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><h1>Signup</h1></header>
+    <main>
+    <form>
+        <label class="label">Full Name</label>
+        <input type="text" id="name" class="input" required />
+
+        <label class="label">Email</label>
+        <input type="email" id="email" class="input" required />
+
+        <label class="label">Password</label>
+        <input type="password" id="password" class="input" required />
+
+        <label class="label">Confirm Password</label>
+        <input type="password" id="password" class="input" required />
+
+        <label class="label">DOB</label>
+        <input type="date" id="date"  required />
+
+        <label class="category">
+        <input type="radio" checked="checked" name="radio" required/>
+        Student
+        </label>
+        <label>
+        <input type="radio" checked="checked" name="radio" required/>
+        Employee
+        </label>
+        
+        <label  class="checkbox">
+            <input type="checkbox" required/>
+            I agree to all the Terms and conditions
+        </label>
+        <button type="submit" class="button">Signup</button>
+    </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
